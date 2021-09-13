@@ -10,4 +10,6 @@ const useFlip = () => {
   return [isFacingUp, flipCard]
 }
 
-export default useFlip
+export {
+  useFlip
+}
